@@ -15,6 +15,7 @@ const TRANSLATIONS = {
   en,
   es,
   fr,
+  hu,
   "hu-HU": hu,
   it,
   nl,
