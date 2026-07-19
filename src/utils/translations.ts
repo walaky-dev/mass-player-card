@@ -20,11 +20,11 @@ const TRANSLATIONS = {
   nl,
   pt,
 };
-const DEFAULT_LANGUAGE = "en";
-const DEFAULT_TRANSLATIONS = TRANSLATIONS.en;
+const DEFAULT_LANGUAGE = "hu";
+const DEFAULT_TRANSLATIONS = TRANSLATIONS.hu;
 
 export function getTranslation(key: string, hass: ExtendedHass | undefined) {
-  const lang = hass?.locale?.language ?? DEFAULT_LANGUAGE;
+  const lang = "hu";
   /* eslint-disable
     @typescript-eslint/no-unsafe-assignment,
   */
