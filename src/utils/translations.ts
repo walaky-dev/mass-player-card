@@ -24,7 +24,7 @@ const DEFAULT_LANGUAGE = "en";
 const DEFAULT_TRANSLATIONS = TRANSLATIONS.en;
 
 export function getTranslation(key: string, hass: ExtendedHass | undefined) {
-  const lang = hass?.language ?? DEFAULT_LANGUAGE;
+  const lang = hass?.locale?.language ?? DEFAULT_LANGUAGE;
   /* eslint-disable
     @typescript-eslint/no-unsafe-assignment,
   */
